@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="log_in_card_valid">
+        <h1>Welcome!</h1>
+        <P>User as been validated!</P>
+        <input type="button" value="Add another user" name="reset" id="addanotheruser">
+        <input type="button" value="Reset" name="reset" id="reset">
+    </div>
+
+</body>
+<script>
+    let reset = document.getElementById(`reset`);
+    let adduser = document.getElementById(`addanotheruser`);
+
+    adduser.addEventListener(`click`, () => {
+        setTimeout(() => {
+            window.location.href = `index2.html`;
+        }, 1000);
+    });
+
+    reset.addEventListener(`click`, () => {
+        // Remove the "user_data" key from localStorage
+        localStorage.removeItem("user_data");
+
+        setTimeout(() => {
+            window.location.href = "index.html";
+        }, 1000);
+    });
+</script>
+
+</html>

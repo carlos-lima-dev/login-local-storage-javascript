@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="log_in_card">
+        <h2>Sign up</h2>
+        <form class="form_flex">
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username">
+            <label for="email">E-mail</label>
+            <input type="email" name="userlast" id="email">
+            <label for="password1">Password</label>
+            <input type="password" id="password1">
+            <span id="eye" class="lnr-eye">
+                <img src="assets/mostrar-senha.png" alt="">
+            </span>
+            <label for="password2">Confirme a password</label>
+            <input type="password" id="password2">
+            <span id="ey" class="lnr-ey">
+                <img src="assets/mostrar-senha.png" alt="">
+            </span>
+            <div id="msgvalid" class="valid_user">Await validation...</div>
+            <div id="msgerror" class="error"></div>
+            <button type="submit" id="btn">Sign up</button>
+        </form>
+        <p><a href="index.html">Have an account already?</a></p>
+    </div>
+
+    <script src="js/form-adduser.js"></script>
+
+
+</body>
+
+</html>

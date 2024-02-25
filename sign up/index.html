@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="welcome()">
+    <div class="log_in_card">
+        <h2>Sign in</h2>
+        <form class="form_flex">
+            <label for="user">User name</label>
+            <input type="text" name="user" id="user">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <span class="lnr-e">
+                <img src="assets/mostrar-senha.png" alt="">
+            </span>
+            <div id="msg_valid" class="valid_user">Await validation...</div>
+            <div id="msg_error" class="error"></div>
+
+            <button type="submit" id="btnlogin">Sign in</button>
+        </form>
+        <p><a href="index2.html">Dont have acount yet? Sign up.</a></p>
+        <div class="welcome_card">
+            <h1></h1>
+        </div>
+    </div>
+    <script src="js/loginuser.js"></script>
+</body>
+
+</html>

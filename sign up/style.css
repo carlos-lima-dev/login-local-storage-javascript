@@ -1,0 +1,138 @@
+body {
+  background-color: #333333;
+}
+button {
+  border-color: #333333;
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+}
+.log_in_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 220px;
+  height: 400px;
+  background-color: aliceblue;
+  margin-top: 100px;
+  padding: 20px 20px 20px 20px;
+}
+
+.log_in_card h2 {
+  color: #333333;
+  text-align: center;
+}
+.form_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.form_flex input {
+  border: none;
+  outline: none;
+  border-bottom: 1px #333333 solid;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+.lnr-eye {
+  position: absolute;
+  right: 10px;
+  top: 135px;
+  cursor: pointer;
+}
+.lnr-ey {
+  position: absolute;
+  right: 10px;
+  top: 190px;
+  cursor: pointer;
+}
+
+.lnr-e {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  cursor: pointer;
+}
+.valid_user {
+  width: 100%;
+  display: none;
+}
+.valid_user_1 {
+  width: 95%;
+  background-color: green;
+  padding: 4px 4px;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.error {
+  width: 100%;
+  display: none;
+}
+.error_1 {
+  width: 95%;
+  background-color: red;
+  color: white;
+  padding: 4px 4px;
+  border-radius: 10px;
+
+  display: block;
+  text-align: center;
+}
+
+.log_in_card_valid {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.log_in_card_valid p {
+  color: green;
+}
+.log_in_card_valid h1 {
+  color: green;
+}
+.log_in_card_valid input {
+  border-color: #333333;
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+}
+.welcome_card {
+  display: none;
+}
+
+.welcome_card_add {
+  width: 400px;
+  padding: 175px 50px;
+  background-color: white;
+  color: #333333;
+  position: absolute;
+  top: -30px;
+  left: -115px;
+  display: block;
+  text-align: center;
+  opacity: 0.9;
+}
